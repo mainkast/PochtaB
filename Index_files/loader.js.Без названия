@@ -1,0 +1,23 @@
+(function () {
+  if (window && typeof window === "object") {
+    const TIMEOUT_DUR = 10000;
+    const timeout = setTimeout(function () {
+      const fusionApp = document.getElementById("fusion-app");
+      const appLoader = document.getElementById("app-loader");
+      if (fusionApp) {
+        fusionApp.classList.remove("app-hidden");
+      }
+      if (appLoader) {
+        appLoader.classList.add("no-display");
+      }
+      clearTimeout(timeout);
+    }, TIMEOUT_DUR);
+    window.addEventListener("load", function () {
+      clearTimeout(timeout);
+      const fusionApp = document.getElementById("fusion-app");
+      const appLoader = document.getElementById("app-loader");
+      fusionApp.classList.remove("app-hidden");
+      appLoader.classList.add("no-display");
+    });
+  }
+})();

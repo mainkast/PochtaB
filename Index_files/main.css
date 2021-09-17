@@ -1,0 +1,175 @@
+@font-face {
+  font-family: "Roslindale Display Bold";
+  src: url('https://downloads.coindesk.com/arc-hosted-fonts/roslindale_display_bold.woff2') format('font-woff2'),
+    url('https://downloads.coindesk.com/arc-hosted-fonts/roslindale_display_bold.woff') format('font-woff'),
+  url('https://downloads.coindesk.com/arc-hosted-fonts/roslindale_display_bold.ttf') format('truetype');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Display Narrow Bold Roslindale";
+  src: url('https://downloads.coindesk.com/arc-hosted-fonts/roslindale_display_narrow.woff2') format('font-woff2'),
+    url('https://downloads.coindesk.com/arc-hosted-fonts/roslindale_display_narrow.woff') format('woff'),
+url('https://downloads.coindesk.com/arc-hosted-fonts/roslindale_display_narrow.ttf') format('truetype');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk Text Pro";
+  src: url('https://downloads.coindesk.com/arc-hosted-fonts/NHaasGroteskTXStd-55Rg.woff2') format('font-woff2'),
+  url('https://downloads.coindesk.com/arc-hosted-fonts/NHaasGroteskTXStd-55Rg.woff') format('woff'),
+  url('https://downloads.coindesk.com/arc-hosted-fonts/NHaasGroteskTXStd-55Rg.ttf') format('truetype');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk Text Pro";
+  src: url('https://downloads.coindesk.com/arc-hosted-fonts/NHaasGroteskTXStd-56It.woff2') format('font-woff2'),
+      url('https://downloads.coindesk.com/arc-hosted-fonts/NHaasGroteskTXStd-56It.woff') format('woff'),
+  url('https://downloads.coindesk.com/arc-hosted-fonts/NHaasGroteskTXStd-56It.ttf') format('truetype');
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk Display Pro";
+  src: url('https://downloads.coindesk.com/arc-hosted-fonts/NHaasGroteskTXStd-65Md.woff2') format('font-woff2'),
+  url('https://downloads.coindesk.com/arc-hosted-fonts/NHaasGroteskTXStd-65Md.woff') format('woff'),
+  url('https://downloads.coindesk.com/arc-hosted-fonts/NHaasGroteskTXStd-65Md.ttf') format('truetype');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk Display Pro";
+  src: url('https://downloads.coindesk.com/arc-hosted-fonts/NHaasGroteskTXStd-66MdIt.woff2') format('font-woff2'),
+  url('https://downloads.coindesk.com/arc-hosted-fonts/NHaasGroteskTXStd-66MdIt.woff') format('woff'),
+  url('https://downloads.coindesk.com/arc-hosted-fonts/NHaasGroteskTXStd-66MdIt.ttf') format('truetype');
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk Text Pro";
+  src: url('https://downloads.coindesk.com/arc-hosted-fonts/NHaasGroteskTXStd-75Bd.woff2') format('font-woff2'),
+  url('https://downloads.coindesk.com/arc-hosted-fonts/NHaasGroteskTXStd-75Bd.woff') format('woff'),
+  url('https://downloads.coindesk.com/arc-hosted-fonts/NHaasGroteskTXStd-75Bd.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk Display Pro";
+  src: url('https://downloads.coindesk.com/arc-hosted-fonts/NHaasGroteskTXStd-76BdIt.woff2') format('font-woff2'),
+  url('https://downloads.coindesk.com/arc-hosted-fonts/NHaasGroteskTXStd-76BdIt.woff') format('woff'),
+  url('https://downloads.coindesk.com/arc-hosted-fonts/NHaasGroteskTXStd-76BdIt.ttf') format('truetype');
+  font-style: italic;
+  font-display: swap;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+}
+
+figure {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+ol,
+ul {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+}
+
+#app-loader {
+  position: absolute;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+#fusion-app.app-hidden {
+  visibility: hidden;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+#app-loader.no-display {
+  display: none;
+}
+
+#app-loader.dark .app-loader-wrapper {
+  color: #fff;
+}
+
+#app-loader.dark {
+  background-color: rgb(33, 33, 33);
+}
+
+#app-loader .app-loader-wrapper {
+  width: 142px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+#app-loader img {
+  width: 100%;
+  height: auto;
+}
+
+#app-loader span {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+}
