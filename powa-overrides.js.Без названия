@@ -1,0 +1,42 @@
+(function () {
+  window.addEventListener("powaReady", function () {
+    window.PoWaSettings.promo = {
+      style: {
+        ".powa-shot-image": {
+          backgroundColor: "red",
+          backgroundSize: "cover",
+          position: "absolute",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          height: "100%",
+          width: "100%",
+          zIndex: "1",
+        },
+        ".powa-shot-play-btn:hover": {
+          fill: "rgb(153,50,204)"
+        },
+        ".powa-button": {
+          background: "none",
+          border: "none",
+          padding: "0px",
+          margin: "0px",
+          fill: "rgb(240,248,255)",
+          cursor: "pointer",
+        },
+        ".powa-shot-play-btn": {
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          opacity: "0.85",
+          borderRadius: "50%",
+          backgroundColor: "rgba(0,0,0,0.25)",
+          boxShadow: "0 0 10px 5px rgba(0,0,0,0.25)",
+          cursor: "pointer",
+          transition: "all 0.25s",
+          zIndex: "1",
+        },
+      },
+    };
+  });
+})();

@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "Roslindale Display Bold";
+    src: url('https://downloads.coindesk.com/arc-hosted-fonts/roslindale_display_bold.woff2') format('font-woff2'),
+    url('https://downloads.coindesk.com/arc-hosted-fonts/roslindale_display_bold.woff') format('font-woff');
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Display Narrow Bold Roslindale";
+    src: url('https://downloads.coindesk.com/arc-hosted-fonts/roslindale_display_narrow.woff2') format('font-woff2'),
+    url('https://downloads.coindesk.com/arc-hosted-fonts/roslindale_display_narrow.woff') format('font-woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Neue Haas Grotesk Text Pro";
+    src: url('https://downloads.coindesk.com/arc-hosted-fonts/NHaasGroteskTXStd-55Rg.woff2') format('font-woff2'),
+    url('https://downloads.coindesk.com/arc-hosted-fonts/NHaasGroteskTXStd-55Rg.woff') format('font-woff');
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Neue Haas Grotesk Text Pro";
+    src: url('https://downloads.coindesk.com/arc-hosted-fonts/NHaasGroteskTXStd-56It.woff2') format('font-woff2'),
+    url('https://downloads.coindesk.com/arc-hosted-fonts/NHaasGroteskTXStd-56It.woff') format('font-woff');
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Neue Haas Grotesk Display Pro";
+    src: url('https://downloads.coindesk.com/arc-hosted-fonts/NHaasGroteskTXStd-65Md.woff2') format('font-woff2'),
+    url('https://downloads.coindesk.com/arc-hosted-fonts/NHaasGroteskTXStd-65Md.woff') format('font-woff');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Neue Haas Grotesk Display Pro";
+    src: url('https://downloads.coindesk.com/arc-hosted-fonts/NHaasGroteskTXStd-66MdIt.woff2') format('font-woff2'),
+    url('https://downloads.coindesk.com/arc-hosted-fonts/NHaasGroteskTXStd-66MdIt.woff') format('font-woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Neue Haas Grotesk Text Pro";
+    src: url('https://downloads.coindesk.com/arc-hosted-fonts/NHaasGroteskTXStd-75Bd.woff2') format('font-woff2'),
+    url('https://downloads.coindesk.com/arc-hosted-fonts/NHaasGroteskTXStd-75Bd.woff') format('font-woff');
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: "Neue Haas Grotesk Display Pro";
+    src: url('https://downloads.coindesk.com/arc-hosted-fonts/NHaasGroteskTXStd-76BdIt.woff2') format('font-woff2'),
+    url('https://downloads.coindesk.com/arc-hosted-fonts/NHaasGroteskTXStd-76BdIt.woff') format('font-woff');
+    font-display: swap;
+}
